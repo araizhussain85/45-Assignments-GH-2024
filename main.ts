@@ -1,3 +1,4 @@
-let personName = "Araiz,";
-console.log("Ma'am Shumaila: Assalam u alaikum", personName,"would you like to have some lessons on Pharmacognosy today?");
-console.log("Me: Absolutely not.");
+{let myVariable = "Pharmacognosy IIB is a nightmare for every student.";
+console.log("This is Lowercase:", myVariable.toLowerCase());
+console.log("This is Uppercase:", myVariable.toLocaleUpperCase());
+console.log("This is Titlecase:", myVariable.replace(/\b\w/g,c => c.toUpperCase()));}
